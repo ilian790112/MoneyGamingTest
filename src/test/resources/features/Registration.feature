@@ -2,7 +2,7 @@ Feature: Registration Page
   Registration Page functionality
 
   @registration
-  Scenario: Register new user
+  Scenario: Test the mandatory date of birth field
     Given I navigate to "https://moneygaming.qa.gameaccount.com/"
     And I click "Join Now!" button
     And I select title "Mr"
